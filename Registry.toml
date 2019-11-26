@@ -1,0 +1,14 @@
+name = "HMregistryJL"
+uuid = "fb8c0678-1db1-46c5-8d6a-d059abec1cbd"
+repo = "https://github.com/henryk-modzelewski/HMregistryJL.git"
+
+description = """
+Official general Julia package registry where people can
+register any package they want without too much debate about
+naming and without enforced standards on documentation or
+testing. We nevertheless encourage documentation, testing and
+some amount of consideration when choosing package names.
+"""
+
+[packages]
+42c1917d-db74-44cc-b9d6-34b93e5a02af = {name = "HMJulia", path = "HMJulia"}
